@@ -1,3 +1,22 @@
+/*:
+	@include:
+		{
+			"class-callback": "Callback"
+		}
+	@end-include
+*/
+looop = function looop( set, loop, callback ){
+	/*:
+		@meta-configuration:
+			{
+				"set:required":"Array|object|function",
+				"loop:required": "function",
+				"callback": "Callback"
+			}
+		@end-meta-configuration
+	*/
+};
+
 var looop = function looop( set, loop, self ){
 	/*
 		set - either array or object (JSON)
